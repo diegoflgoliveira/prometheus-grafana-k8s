@@ -1,0 +1,13 @@
+server:
+  service:
+    type: ClusterIP
+    port: 3000
+
+alertmanager:
+  enabled: false
+
+prometheus-node-exporter:
+  enabled: false
+
+prometheus-pushgateway:
+  enabled: false
